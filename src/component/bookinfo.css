@@ -1,0 +1,26 @@
+
+
+.bookinfo:hover .comment{
+    display: flex;
+    transition: 0.5s;
+}
+@media(  max-width:640px ){
+    .comment{
+    left:33% ;
+    }
+    }
+@media(  min-width:641px ){
+    .comment{
+    left:26% ;
+    }
+    }
+@media(  min-width:768px ){
+.comment{
+left:9% ;
+}
+}
+@media( min-width: 1025px){
+    .comment{
+    left:23% ;
+    }
+    }

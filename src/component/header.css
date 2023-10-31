@@ -1,0 +1,18 @@
+
+/* .mobile-menu{
+    transform: translateX(100%);
+} */
+@media(max-width: 640px){
+    .mobile-menu.responsive-nav{
+        transform: translateX(0%);
+    } 
+    .mobile-menu{
+        transform: translateX(100%);
+        position: fixed;
+        inset: 0 0 0 30%;
+        height: 100vh;
+        z-index: 9999;
+        background-color: hsla(0, 0, 0, 0.75);
+        backdrop-filter: blur(2rem);
+    }
+}
